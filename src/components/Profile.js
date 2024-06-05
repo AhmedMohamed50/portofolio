@@ -4,14 +4,6 @@ import './Profile.css';
 import ProfilePicture from '../assests/images/avatar.webp';
 
 
-// function toggle() {
-//     if (this.state.displayBio === true)
-//         this.setDisplayBio(false)
-//     else
-//         this.setDisplayBio(true)
-//     console.log("clicked on");
-// }
-
 function Profile() {
     const [displayBio, setDisplayBio] = useState(false);
 
@@ -19,16 +11,17 @@ function Profile() {
         setDisplayBio(!displayBio);
         console.log("clicked on");
     };
+
     return (
         <div className="App">
             <img src={ProfilePicture} className="profile-picture" alt="Profile"/>
             <h2>I am Ahmed M. AbdelRahim Maree</h2>
-            {this.state.displayBio === true ? (
+            {displayBio ? (
                 <div>
-                <h3>I am Computer Engineer</h3>
-                <h4>this is my first react project</h4>
-                <p>I want to learn more about React to work as a front-end developer</p>
-                <button onClick={toggle} className='btn'>Hide</button>
+                    <h3>I am Computer Engineer</h3>
+                    <h4>this is my first react project</h4>
+                    <p>I want to learn more about React to work as a front-end developer</p>
+                    <button onClick={toggle} className='btn'>Hide</button>
                 </div>
             ) : (
                 <button onClick={toggle} className='btn'>Show more</button>
