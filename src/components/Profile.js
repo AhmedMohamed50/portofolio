@@ -13,9 +13,9 @@ function Profile() {
     };
 
     return (
-        <div className="App">
+        <div className="column">
             <img src={ProfilePicture} className="profile-picture" alt="Profile"/>
-            <h2>I am Ahmed M. AbdelRahim Maree</h2>
+            <h2>Ahmed M. AbdelRahim Maree</h2>
             {displayBio ? (
                 <div>
                     <h3>I am Computer Engineer</h3>
