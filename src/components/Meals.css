@@ -25,7 +25,8 @@
 
 .meal-image {
     width: 100%;
-    height: auto;
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
     border-radius: 8px;
 }
 

@@ -1,4 +1,4 @@
-import img8 from "../assests/images/";
+import img8 from "../assests/images/img8.jpg";
 import img9 from "../assests/images/img9.jpg";
 import img10 from "../assests/images/img10.jpg";
 
