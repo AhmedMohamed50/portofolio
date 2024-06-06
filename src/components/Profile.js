@@ -19,7 +19,7 @@ function Profile() {
             {displayBio ? (
                 <div>
                     <h3>I am Computer Engineer</h3>
-                    <h4>this is my first react project</h4>
+                    <h4>This is my first react project</h4>
                     <p>I want to learn more about React to work as a front-end developer</p>
                     <button onClick={toggle} className='btn'>Hide</button>
                 </div>
