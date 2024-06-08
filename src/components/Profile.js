@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import React, { useState } from 'react';
 import './Profile.css';
 import ProfilePicture from '../assests/images/avatar.webp';

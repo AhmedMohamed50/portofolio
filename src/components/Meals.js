@@ -1,10 +1,7 @@
-// import logo from '../assests/images/img2.webp';
-// eslint-disable-next-line
 import React, { useState } from 'react';
 import './Meals.css';
 import MEALS from "../data/MEALS";
 
-// import ProfilePicture from '../assests/images/avatar.webp';
 
 
 function Meals() {
