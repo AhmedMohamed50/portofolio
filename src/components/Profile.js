@@ -12,7 +12,7 @@ function Profile() {
     };
 
     return (
-        <div className='App'>
+        <div className='app'>
             <div className="column">
                 <img src={ProfilePicture} className="profile-picture" alt="Profile"/>
                 <h2>Ahmed M. AbdelRahim Maree</h2>
